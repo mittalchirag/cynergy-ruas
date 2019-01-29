@@ -10,6 +10,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { TeamComponent } from './team/team.component';
 import { FooterComponent } from './footer/footer.component';
 import { HallOfFameComponent } from './hall-of-fame/hall-of-fame.component';
+import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HallOfFameComponent } from './hall-of-fame/hall-of-fame.component';
     NavbarComponent,
     TeamComponent,
     FooterComponent,
-    HallOfFameComponent
+    HallOfFameComponent,
+    AboutComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
