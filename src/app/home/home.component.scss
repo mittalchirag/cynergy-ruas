@@ -12,14 +12,7 @@ header,
   height: 100vh !important;
 }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  #intro-section {
-    min-height: 100vh;
-  }
-}
+
 
 .rgba-gradient {
   background: -moz-linear-gradient(to top, #19165499, #43c6ac99);
