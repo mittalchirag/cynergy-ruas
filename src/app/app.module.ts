@@ -12,6 +12,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HallOfFameComponent } from './hall-of-fame/hall-of-fame.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FaqComponent } from './faq/faq.component';
     FooterComponent,
     HallOfFameComponent,
     AboutComponent,
-    FaqComponent
+    FaqComponent,
+    DashboardComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
