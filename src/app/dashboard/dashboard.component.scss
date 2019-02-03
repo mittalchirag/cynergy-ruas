@@ -48,3 +48,14 @@ header,
 .rgba-black-strong {
   height: inherit;
 }
+.scrollable-list {
+  position: relative;
+  overflow-y: scroll;
+  height: 200px;
+}
+.list-color{
+  background: #2e2e2e;
+  li{
+    background-color: #2e2e2e;
+  }
+}
