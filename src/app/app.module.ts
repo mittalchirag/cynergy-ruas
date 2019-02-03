@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
+import {DemoMaterialModule} from './material-module';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
@@ -32,6 +36,12 @@ import { LoginComponent } from './login/login.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    DemoMaterialModule,
+    HttpClientModule,
+    MatNativeDateModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot()
   ],

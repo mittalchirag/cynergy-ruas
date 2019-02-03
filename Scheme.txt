@@ -1,0 +1,9 @@
+Font: Montserrat
+Title-Colour: rgb(222, 63, 15)
+Subtitle-Colour: #FDC830
+Primary-Text-Colour: white; 
+Secondary-Text-Colour: grey;
+Designations-Link-Text: blue;
+Primary-Colour: rgb(0, 22, 54)
+Secondary-Colour: rgb(3, 14, 29)
+Navbar-Colour: #1C2331 
